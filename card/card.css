@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(216, 100%, 94%);
+}
+.center-div{
+    width: 300px;
+    height: 180px;
+    border-radius: 16px;
+    background:linear-gradient(to right top,#52b6fe,#6154fe);
+    padding: 30px;
+    position: relative;
+    box-shadow:  
+    0 2.8px 2.2px rgba(0,0,0,0.034),
+    0 6.7px 5.3px  rgba(0, 0, 0, 0.048),
+    0 12.5px 10px  rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px  rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px  rgba(0, 0, 0, 0.086),
+    0 100px 80px  rgba(0, 0, 0, 0.12);
+    
+}
